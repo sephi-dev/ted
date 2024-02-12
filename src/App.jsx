@@ -7,7 +7,7 @@ function App() {
   const [step, setStep] = useState(0);
   return (
     <div className="app">
-      <header className="app-header">
+      <header className="app-header px-2">
         <div className="rounded-full">
           <img src={logo} className="app-logo rounded-full" alt="logo" />
         </div>
